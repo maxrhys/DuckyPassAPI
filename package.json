@@ -4,7 +4,7 @@
   "description": "API for generating passwords. Ducky Pass helps you create strong and unique passwords by combining randomly selected words with unique random numbers and symbols.",
   "main": "src/app.js",
   "scripts": {
-    "start": "node src/app.js",
+    "start": "set PORT=8080 && node src/app.js",
     "dev": "nodemon src/app.js"
   },
   "dependencies": {
