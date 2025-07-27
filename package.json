@@ -1,0 +1,16 @@
+{
+  "name": "duckypass-api",
+  "version": "1.0.0",
+  "description": "API for generating passwords. Ducky Pass helps you create strong and unique passwords by combining randomly selected words with unique random numbers and symbols.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "dotenv": "^10.0.0"
+  },
+  "author": "Rhys Wills",
+  "license": "GPL-3"
+}
